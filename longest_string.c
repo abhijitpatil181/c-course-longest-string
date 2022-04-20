@@ -1,4 +1,3 @@
-//program to  find longest string
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
