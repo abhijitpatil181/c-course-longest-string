@@ -16,4 +16,5 @@ int main(int argc,char* argv[]){
         }
         printf("%s\n",argv[index]);
     }
+    return EXIT_SUCCESS;
 }
