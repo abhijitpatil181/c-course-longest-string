@@ -4,22 +4,22 @@
 
 int main(int argc, char *argv[])
 {
-    int longest_string_index;
+    int longestStringIndex;
     if (argc <= 1)
     {
         puts("");
     }
     else
     {
-        longest_string_index = 1;
-        for (int current_string_index = 2; current_string_index < argc; current_string_index++)
+        longestStringIndex = 1;
+        for (int currentStringIndex = 2; currentStringIndex < argc; currentStringIndex++)
         {
-            if (strlen(argv[longest_string_index]) < strlen(argv[current_string_index]))
+            if (strlen(argv[longestStringIndex]) < strlen(argv[currentStringIndex]))
             {
-                longest_string_index = current_string_index;
+                longestStringIndex = currentStringIndex;
             }
         }
-        puts(argv[longest_string_index]);
+        puts(argv[longestStringIndex]);
     }
     return EXIT_SUCCESS;
 }
