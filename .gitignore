@@ -1,2 +1,3 @@
+*.o
+*.exe
 longest_string.exe
-a.exe

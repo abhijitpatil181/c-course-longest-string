@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     int index;
     if (argc <= 1)
     {
-        puts("empty string");
+        puts("");
     }
     else
     {
